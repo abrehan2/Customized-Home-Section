@@ -29,15 +29,11 @@ slides.forEach(slide => {
     content.forEach(cont => {
         cont.classList.remove("active");
         });
-    
-
 
 slider_btns[slide_index].classList.add("active");
 slides[slide_index].classList.add("active");
 content[slide_index].classList.add("active");
 }
-
-
 
 slider_btns.forEach((btn, idx) => {
     btn.addEventListener("click", () => 
@@ -73,7 +69,4 @@ tippy(facebook, {
     animation: 'fade',
   });
 
-
-
 // Tool-tips ends here
-
