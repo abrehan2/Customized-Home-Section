@@ -54,8 +54,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 15px 200px;
-    transition: 0.5s ease;
-    
+    transition: 0.5s ease;    
 }
 
 header .brand{
@@ -106,7 +105,6 @@ header .navigation .navigation-items a:hover::after{
        left: 0;
       }
 
-
 /* Declaring header section ends here */
 
 /* Declaring section - 1 starts here */
@@ -154,7 +152,6 @@ section{
 .home-section .content.active{
     display: block;
 }
-
 
 .home-section .content h1{
     font-size: 1.5em;
@@ -308,7 +305,6 @@ transition: 0.3s ease;
     }
 }
 
-
 @media screen and (max-width: 476px) {
     header{
         padding: 12px 20px;
@@ -386,8 +382,7 @@ transition: 0.3s ease;
                
  right: 50%;
              
-            }
-            
+            }            
 }
 
 @media screen and (min-width: 476px) and (max-width: 768px) {
